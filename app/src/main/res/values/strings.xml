@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Educate App</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">Berikutnya</string>
+    <string name="skip">Lewati</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Child Education App</string>
+    <string name="slide_1_desc">Belajar asik hanya di Child Education App</string>
+
+    <string name="slide_2_title">Ilmu adalah jendela dunia</string>
+    <string name="slide_2_desc">Tanam pengetahuan sedini mungkin</string>
+
+    <string name="slide_3_title">Edukasi dimulai dari usia dini!</string>
+    <string name="slide_3_desc">Yuk mulai eksplor pengetahuan seputar binatang!</string>
+
+    <string name="slide_4_title">Pelajari serta Kenali!</string>
+    <string name="slide_4_desc">Ketahui dan pelajari hewan di sekitar kita!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="splash">Child Education App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Fragment Home</string>
+    <string name="education_fragment">Fragment Education</string>
+    <string name="quiz_fragment">Fragment Quiz</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appbar_scrolling_view_behavior">appbar_scrolling_view_behavior</string>
+</resources>
