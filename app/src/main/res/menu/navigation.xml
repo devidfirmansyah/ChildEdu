@@ -3,8 +3,8 @@
         android:title="Home"
         android:icon="@drawable/home" />
     <item android:id="@+id/action_education"
-        android:title="Education"
-        android:icon="@drawable/student" />
+        android:title="Deskripsi Binatang"
+        android:icon="@drawable/caticon" />
     <item android:id="@+id/action_quiz"
         android:title="Suara Binatang"
         android:icon="@drawable/voice" />

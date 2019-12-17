@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">Educate App</string>
+    <string name="app_name">Child Education</string>
     <string name="title_activity_welcome">Home Screen</string>
     <string name="next">Berikutnya</string>
     <string name="skip">Lewati</string>
     <string name="start">GOT IT</string>
 
-    <string name="slide_1_title">Child Education App</string>
+    <string name="slide_1_title">Child Education</string>
     <string name="slide_1_desc">Belajar asik hanya di Child Education App</string>
 
     <string name="slide_2_title">Ilmu adalah jendela dunia</string>
@@ -15,7 +15,7 @@
     <string name="slide_3_desc">Yuk mulai eksplor pengetahuan seputar binatang!</string>
 
     <string name="slide_4_title">Pelajari serta Kenali!</string>
-    <string name="slide_4_desc">Ketahui dan pelajari hewan di sekitar kita!</string>
+    <string name="slide_4_desc">Ketahui dan pelajari binatang di sekitar kita!</string>
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
