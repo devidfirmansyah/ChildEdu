@@ -2,10 +2,10 @@
     <item android:id="@+id/action_home"
         android:title="Home"
         android:icon="@drawable/home" />
-    <item android:id="@+id/action_education"
+    <item android:id="@+id/action_deskripsi"
         android:title="Deskripsi Binatang"
         android:icon="@drawable/caticon" />
-    <item android:id="@+id/action_quiz"
+    <item android:id="@+id/action_suara"
         android:title="Suara Binatang"
         android:icon="@drawable/voice" />
 </menu>

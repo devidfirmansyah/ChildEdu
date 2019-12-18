@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.childedu.R;
+import com.example.childedu.fragments.DeskripsiFragment;
 import com.example.childedu.fragments.HomeFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -42,12 +43,18 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             case R.id.action_home:
                 fragment = new HomeFragment();
                 break;
+            case R.id.action_deskripsi:
+                fragment = new DeskripsiFragment();
+                break;
         }
-        return false;
+
+        return loadFragment(fragment);
     }
 
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
 
     }
+
+
 }
