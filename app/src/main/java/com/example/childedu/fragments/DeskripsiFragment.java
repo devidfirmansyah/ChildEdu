@@ -1,6 +1,7 @@
 package com.example.childedu.fragments;
 
 
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -127,36 +128,48 @@ public class DeskripsiFragment extends Fragment {
         });
 
 
-
         return view;
     }
 
-    private class OnFragmentInteractionListener {
-        public void onmateri1Clicked() {
+    // TODO: Rename method, update argument and hook method into UI event
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        if (context instanceof OnFragmentInteractionListener) {
+            mListener = (OnFragmentInteractionListener) context;
+        } else {
+            throw new RuntimeException(context.toString()
+                    + " must implement OnFragmentInteractionListener");
         }
+    }
 
-        public void onmateri2Clicked() {
-        }
+    @Override
+    public void onDetach() {
+        super.onDetach();
+        mListener = null;
+    }
 
-        public void onmateri3Clicked() {
-        }
+    public interface OnFragmentInteractionListener {
 
-        public void onmateri4Clicked() {
-        }
+        void onmateri1Clicked();
 
-        public void onmateri5Clicked() {
-        }
+        void onmateri2Clicked();
 
-        public void onmateri6Clicked() {
-        }
+        void onmateri3Clicked();
 
-        public void onmateri7Clicked() {
-        }
+        void onmateri4Clicked();
 
-        public void onmateri8Clicked() {
-        }
+        void onmateri5Clicked();
 
-        public void onmateri9Clicked() {
-        }
+        void onmateri6Clicked();
+
+        void onmateri7Clicked();
+
+        void onmateri8Clicked();
+
+        void onmateri9Clicked();
+    }
+
+    public interface OnInteractionListener {
     }
 }
