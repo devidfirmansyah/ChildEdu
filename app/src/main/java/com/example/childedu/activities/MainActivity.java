@@ -4,6 +4,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import android.media.AudioManager;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -132,4 +134,84 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     }
 
 
+    @Override
+    public void onsound1Clicked() {
+        MediaPlayer mySong;
+        mySong = MediaPlayer.create(MainActivity.this,R.raw.monyet);
+        mySong.setLooping(false);
+        mySong.setAudioStreamType(AudioManager.STREAM_MUSIC);
+        mySong.start();
+    }
+
+    @Override
+    public void onsound2Clicked() {
+        MediaPlayer mySong;
+        mySong = MediaPlayer.create(MainActivity.this,R.raw.kuda);
+        mySong.setLooping(false);
+        mySong.setAudioStreamType(AudioManager.STREAM_MUSIC);
+        mySong.start();
+    }
+
+    @Override
+    public void onsound3Clicked() {
+        MediaPlayer mySong;
+        mySong = MediaPlayer.create(MainActivity.this,R.raw.gajah);
+        mySong.setLooping(false);
+        mySong.setAudioStreamType(AudioManager.STREAM_MUSIC);
+        mySong.start();
+    }
+
+    @Override
+    public void onsound4Clicked() {
+        MediaPlayer mySong;
+        mySong = MediaPlayer.create(MainActivity.this,R.raw.singa);
+        mySong.setLooping(false);
+        mySong.setAudioStreamType(AudioManager.STREAM_MUSIC);
+        mySong.start();
+    }
+
+    @Override
+    public void onsound5Clicked() {
+        MediaPlayer mySong;
+        mySong = MediaPlayer.create(MainActivity.this,R.raw.kucing);
+        mySong.setLooping(false);
+        mySong.setAudioStreamType(AudioManager.STREAM_MUSIC);
+        mySong.start();
+    }
+
+    @Override
+    public void onsound6Clicked() {
+        MediaPlayer mySong;
+        mySong = MediaPlayer.create(MainActivity.this,R.raw.anjing);
+        mySong.setLooping(false);
+        mySong.setAudioStreamType(AudioManager.STREAM_MUSIC);
+        mySong.start();
+    }
+
+    @Override
+    public void onsound7Clicked() {
+        MediaPlayer mySong;
+        mySong = MediaPlayer.create(MainActivity.this,R.raw.sapi);
+        mySong.setLooping(false);
+        mySong.setAudioStreamType(AudioManager.STREAM_MUSIC);
+        mySong.start();
+    }
+
+    @Override
+    public void onsound8Clicked() {
+        MediaPlayer mySong;
+        mySong = MediaPlayer.create(MainActivity.this,R.raw.burung);
+        mySong.setLooping(false);
+        mySong.setAudioStreamType(AudioManager.STREAM_MUSIC);
+        mySong.start();
+    }
+
+    @Override
+    public void onsound9Clicked() {
+        MediaPlayer mySong;
+        mySong = MediaPlayer.create(MainActivity.this,R.raw.katak);
+        mySong.setLooping(false);
+        mySong.setAudioStreamType(AudioManager.STREAM_MUSIC);
+        mySong.start();
+    }
 }
