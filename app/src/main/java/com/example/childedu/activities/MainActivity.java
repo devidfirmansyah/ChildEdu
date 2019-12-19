@@ -19,9 +19,10 @@ import com.example.childedu.fragments.HomeFragment;
 import com.example.childedu.fragments.HorseFragment;
 import com.example.childedu.fragments.LionFragment;
 import com.example.childedu.fragments.MonkeyFragment;
+import com.example.childedu.fragments.SuaraFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener, DeskripsiFragment.OnFragmentInteractionListener{
+public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener, DeskripsiFragment.OnFragmentInteractionListener, SuaraFragment.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +56,8 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             case R.id.action_deskripsi:
                 fragment = new DeskripsiFragment();
                 break;
+            case R.id.action_suara:
+                fragment = new SuaraFragment();
         }
 
         return loadFragment(fragment);
