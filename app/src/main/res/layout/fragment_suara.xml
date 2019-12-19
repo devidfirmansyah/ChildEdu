@@ -32,6 +32,9 @@
             android:id="@+id/sound1"
             android:background="@drawable/blue_button"
             android:drawableTop="@drawable/monkeyicon"
+            android:text="Monyet"
+            android:typeface="serif"
+            android:textStyle="bold"
             android:layout_width="100dp"
             android:layout_height="100dp" />
 
@@ -40,6 +43,9 @@
             android:layout_marginLeft="5dp"
             android:background="@drawable/blue_button"
             android:drawableTop="@drawable/horseicon"
+            android:text="Kuda"
+            android:typeface="serif"
+            android:textStyle="bold"
             android:layout_width="100dp"
             android:layout_height="100dp" />
 
@@ -48,6 +54,9 @@
             android:layout_marginLeft="5dp"
             android:background="@drawable/blue_button"
             android:drawableTop="@drawable/elephanticon"
+            android:text="Gajah"
+            android:typeface="serif"
+            android:textStyle="bold"
             android:layout_width="100dp"
             android:layout_height="100dp" />
     </LinearLayout>
@@ -61,6 +70,9 @@
             android:layout_marginTop="5dp"
             android:background="@drawable/purple_button"
             android:drawableTop="@drawable/lionicon"
+            android:text="Singa"
+            android:typeface="serif"
+            android:textStyle="bold"
             android:layout_width="100dp"
             android:layout_height="100dp" />
 
@@ -70,6 +82,9 @@
             android:layout_marginLeft="5dp"
             android:background="@drawable/purple_button"
             android:drawableTop="@drawable/caticon"
+            android:text="Kucing"
+            android:typeface="serif"
+            android:textStyle="bold"
             android:layout_width="100dp"
             android:layout_height="100dp" />
 
@@ -79,6 +94,9 @@
             android:layout_marginLeft="5dp"
             android:background="@drawable/purple_button"
             android:drawableTop="@drawable/dogicon"
+            android:text="Anjing"
+            android:typeface="serif"
+            android:textStyle="bold"
             android:layout_width="100dp"
             android:layout_height="100dp" />
     </LinearLayout>
@@ -92,6 +110,9 @@
             android:layout_marginTop="5dp"
             android:background="@drawable/orange_button"
             android:drawableTop="@drawable/cowicon"
+            android:text="Sapi"
+            android:typeface="serif"
+            android:textStyle="bold"
             android:layout_width="100dp"
             android:layout_height="100dp" />
 
@@ -101,6 +122,9 @@
             android:layout_marginLeft="5dp"
             android:background="@drawable/orange_button"
             android:drawableTop="@drawable/parroticon"
+            android:text="Burung"
+            android:typeface="serif"
+            android:textStyle="bold"
             android:layout_width="100dp"
             android:layout_height="100dp" />
 
@@ -110,6 +134,9 @@
             android:layout_marginLeft="5dp"
             android:background="@drawable/orange_button"
             android:drawableTop="@drawable/frogicon"
+            android:text="Katak"
+            android:typeface="serif"
+            android:textStyle="bold"
             android:layout_width="100dp"
             android:layout_height="100dp" />
     </LinearLayout>
