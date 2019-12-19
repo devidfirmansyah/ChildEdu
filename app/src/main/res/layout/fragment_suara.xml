@@ -9,13 +9,29 @@
     android:padding="10dp"
     android:gravity="center"
     android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Klik Aku, Aku Akan Bersuara"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="50dp"/>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
+
         <Button
             android:id="@+id/sound1"
             android:background="@drawable/blue_button"
+            android:drawableTop="@drawable/monkeyicon"
             android:layout_width="100dp"
             android:layout_height="100dp" />
 
@@ -23,6 +39,7 @@
             android:id="@+id/sound2"
             android:layout_marginLeft="5dp"
             android:background="@drawable/blue_button"
+            android:drawableTop="@drawable/horseicon"
             android:layout_width="100dp"
             android:layout_height="100dp" />
 
@@ -30,6 +47,7 @@
             android:id="@+id/sound3"
             android:layout_marginLeft="5dp"
             android:background="@drawable/blue_button"
+            android:drawableTop="@drawable/elephanticon"
             android:layout_width="100dp"
             android:layout_height="100dp" />
     </LinearLayout>
@@ -42,6 +60,7 @@
             android:id="@+id/sound4"
             android:layout_marginTop="5dp"
             android:background="@drawable/purple_button"
+            android:drawableTop="@drawable/lionicon"
             android:layout_width="100dp"
             android:layout_height="100dp" />
 
@@ -50,6 +69,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginLeft="5dp"
             android:background="@drawable/purple_button"
+            android:drawableTop="@drawable/caticon"
             android:layout_width="100dp"
             android:layout_height="100dp" />
 
@@ -58,6 +78,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginLeft="5dp"
             android:background="@drawable/purple_button"
+            android:drawableTop="@drawable/dogicon"
             android:layout_width="100dp"
             android:layout_height="100dp" />
     </LinearLayout>
@@ -70,6 +91,7 @@
             android:id="@+id/sound7"
             android:layout_marginTop="5dp"
             android:background="@drawable/orange_button"
+            android:drawableTop="@drawable/cowicon"
             android:layout_width="100dp"
             android:layout_height="100dp" />
 
@@ -78,6 +100,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginLeft="5dp"
             android:background="@drawable/orange_button"
+            android:drawableTop="@drawable/parroticon"
             android:layout_width="100dp"
             android:layout_height="100dp" />
 
@@ -86,6 +109,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginLeft="5dp"
             android:background="@drawable/orange_button"
+            android:drawableTop="@drawable/frogicon"
             android:layout_width="100dp"
             android:layout_height="100dp" />
     </LinearLayout>
