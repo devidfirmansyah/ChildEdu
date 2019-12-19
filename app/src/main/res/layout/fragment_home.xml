@@ -28,6 +28,7 @@
 
 
     <View
+        android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@android:color/white"
@@ -39,41 +40,12 @@
         app:layout_constraintVertical_bias="0.095"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="244dp"
-        android:layout_height="40dp"
-        android:gravity="start"
-        android:text="Yuk pelajari dan kenali binatang-binatang di sekitar kita"
-        android:textSize="15dp"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:typeface="sans"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.251"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.151" />
-
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="78dp"
-        android:layout_height="86dp"
-        android:layout_marginBottom="424dp"
-        android:src="@drawable/catlogo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.951"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.371" />
 
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="81dp"
-        android:layout_height="75dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_marginBottom="448dp"
         android:src="@drawable/panda"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -83,23 +55,23 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.951" />
 
+
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="284dp"
-        android:layout_height="122dp"
+        android:layout_width="283dp"
+        android:layout_height="79dp"
         android:text="Sekilas Binatang..
         \nPanda adalah beruang asli Cina. Di atas telinga dan di sekeliling tubuhnya yang bulat terdapat berkas hitam besar yang khas, Meskipun termasuk Karnivora,makanan Panda lebih dari 99% adalah bambu."
         android:textColor="@color/white"
-        android:textSize="15dp"
+        android:textSize="10dp"
         android:textStyle="italic"
         android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.288" />
-
+        app:layout_constraintVertical_bias="0.317" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -208,4 +180,45 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="153dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Masukkan Nama"
+        android:inputType="textPersonName"
+        android:textColorHighlight="#00020202"
+        android:textColorLink="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <Spinner
+        android:id="@+id/spinnerKelas"
+        android:layout_width="142dp"
+        android:layout_height="36dp"
+        android:entries="@array/kelas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122" />
+
+    <Button
+        android:id="@+id/buttonAddNama"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="Tambah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
 </androidx.constraintlayout.widget.ConstraintLayout>

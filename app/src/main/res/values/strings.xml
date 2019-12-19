@@ -29,4 +29,11 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="appbar_scrolling_view_behavior">appbar_scrolling_view_behavior</string>
+
+    <array name="kelas">
+        <item>PAUD</item>
+        <item>TK</item>
+        <item>SD</item>
+    </array>
+
 </resources>

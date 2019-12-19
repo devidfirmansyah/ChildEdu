@@ -8,4 +8,5 @@
     <item android:id="@+id/action_suara"
         android:title="Suara Binatang"
         android:icon="@drawable/voice" />
+
 </menu>

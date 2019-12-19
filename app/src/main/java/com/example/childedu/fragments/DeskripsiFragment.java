@@ -170,6 +170,4 @@ public class DeskripsiFragment extends Fragment {
         void onmateri9Clicked();
     }
 
-    public interface OnInteractionListener {
-    }
 }

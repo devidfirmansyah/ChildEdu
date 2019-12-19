@@ -4,10 +4,21 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
+import android.opengl.ETC1;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.example.childedu.R;
 import com.example.childedu.fragments.BirdFragment;
@@ -23,8 +34,19 @@ import com.example.childedu.fragments.LionFragment;
 import com.example.childedu.fragments.MonkeyFragment;
 import com.example.childedu.fragments.SuaraFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener, DeskripsiFragment.OnFragmentInteractionListener, SuaraFragment.OnFragmentInteractionListener {
+
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +56,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
         loadFragment(new HomeFragment());
     }
+
 
     private boolean loadFragment(Fragment fragment){
         if(fragment != null){
